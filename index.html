@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form_img">
+            <img src="img/undraw_shopping_re_3wst.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form_header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login_button">
+                        <button><a href="#"> Entrar</a></button>
+                    </div>
+                </div>
+                
+                <div class="input_group">
+                    <div class="input_box">
+                        <label for="firstname"> Primeiro nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite o seu primeiro nome" required>
+                    </div>
+
+                    <div class="input_box">
+                        <label for="lastname"> Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite o seu sobrenome" required>
+                    </div>
+
+                    <div class="input_box">
+                        <label for="email"> Email</label>
+                        <input id="email" type="email" name="email" placeholder="Digite o seu email" required>
+                    </div>
+
+                    <div class="input_box">
+                        <label for="celular"> Celular</label>
+                        <input id="celular" type="tel" name="celular" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="input_box">
+                        <label for="password"> Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="input_box">
+                        <label for="confirmpassaword">Confirme Senha</label>
+                        <input id="confirmpassaword" type="password" name="confirmpassaword" placeholder="Confirme sua senha" required>
+                </div>
+
+                <div class="gender_inputs">
+                    <div class="gender_title">
+                        <h6>Gênero</h6>
+                    </div>
+
+                    <div class="gender_group">
+                        <div class="gender_input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Feminino</label>
+                        </div>
+
+                        <div class="gender_input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender_input">
+                            <input type="radio" id="non-binary" name="gender">
+                            <label for="non-binary">Não Binário</label>
+                        </div>
+
+                        <div class="gender_input">
+                            <input type="radio" id="none" name="gender">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue_button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
